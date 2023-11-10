@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "ru.samsung.itschool.mdev.homework"
         minSdk 23
-        targetSdk 30
+
         versionCode 1
         versionName "1.0"
 
@@ -29,6 +29,9 @@ android {
         unitTests {
             includeAndroidResources = true
         }
+    }
+    buildFeatures {
+        viewBinding true
     }
 }
 
